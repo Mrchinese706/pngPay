@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PNGPay
 
 PNGPay is a simulated digital wallet mobile app for Papua New Guinea, built as a university project. It has a Pacific-inspired visual identity and lets users manage saved payees, record simulated transfers, and organise private pools and savings goals. **No real money is transferred at any point.** All balances and transaction records are simulated inside our own Supabase database and have no connection to any real bank, financial institution, or payment network.
@@ -149,3 +150,7 @@ eas build --platform android --profile preview --local
 ## AI Assistance
 
 Amazon Q Developer and Claude were used to scaffold the project structure, generate boilerplate code, and suggest implementations for individual components and services. All generated code was reviewed, understood, and tested by the student. The student can explain every line of code in this project.
+=======
+# pngPay
+PNG Mobile Wallet 
+>>>>>>> f6cf1387a39891ddade4eb069c99e019742c6eee
