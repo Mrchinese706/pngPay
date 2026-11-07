@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "PNGPay",
+    "slug": "pngpay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101D35"
+    },
+    "scheme": "pngpay",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "PNGPay uses your location to show local weather."
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.student.pngpay",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101D35"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.student.pngpay",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "PNGPay uses your location to show local weather."
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
